@@ -15,7 +15,7 @@ secondNumber=Number(prompt("Now enter the second number:"));
 
 while (infiniteLoop==0){
 	
-	option=prompt("First number: "+firstNumber+"\nSecond number: "+secondNumber+"\nPlease enter the wished operation:\n1. Sum\n2. Rest\n3. Multiplication\n4. Division\n5. Modify numbers\n6. Exit (stop script)");
+	option=prompt("First number: "+firstNumber+"\nSecond number: "+secondNumber+"\nLast result: "+result+"\n\nPlease enter the wished operation:\n1. Sum\n2. Rest\n3. Multiplication\n4. Division\n5. Modify numbers\n6. Exit (stop script)");
 	
 	if (option==1){
 		result=firstNumber+secondNumber;
@@ -45,6 +45,6 @@ while (infiniteLoop==0){
 		break;
 	
 	} else if (option!=1 || 2 || 3 || 4 || 5){
-		alert("Please enter a valid option (1-4)...");
+		alert("Please enter a valid option (1-6)...");
 	}
 }
