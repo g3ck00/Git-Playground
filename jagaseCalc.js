@@ -1,3 +1,5 @@
+alert("This is a new branch!");
+
 let option=0;
 
 let firstNumber=0; //First number.
