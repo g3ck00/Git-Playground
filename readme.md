@@ -1,0 +1,1 @@
+This is a test repository used for myself to specifically apply concepts learned from git and GitHub basics tutorials.
