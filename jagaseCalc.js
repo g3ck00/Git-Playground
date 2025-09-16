@@ -9,7 +9,11 @@ let secondNumber=0; //Second number.
 
 let result=0; //Result of the operation.
 
+//Intentional conflict
+alert("Coded by someone, but not me!");
+
 firstNumber=Number(prompt("*** The Jagase Calculator ***\nThis calculator operates with two numbers (more features comin' soon!)\nPlease enter the first number:")); //Number() converts the prompt input to a numeric value since prompt takes the input as a String!
+
 
 secondNumber=Number(prompt("Now enter the second number:"));
 
