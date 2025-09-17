@@ -14,7 +14,7 @@ let result=0; //Result of the operation.
 //alert("Coded by the Devil!");
 //=======
 //Intentional conflict (selected as desired version)
-alert("Coded by someone, but not me!");
+//alert("Coded by someone, but not me!");
 //>>>>>>> feature-conflict
 
 firstNumber=Number(prompt("*** The Jagase Calculator ***\nThis calculator operates with two numbers (more features comin' soon!)\nPlease enter the first number:")); //Number() converts the prompt input to a numeric value since prompt takes the input as a String!
@@ -24,7 +24,7 @@ secondNumber=Number(prompt("Now enter the second number:"));
 
 while (infiniteLoop==0){
 	
-	option=prompt("First number: "+firstNumber+"\nSecond number: "+secondNumber+"\nLast result: "+result+"\n\nPlease enter the wished operation:\n1. Sum\n2. Rest\n3. Multiplication\n4. Division\n5. Modify numbers\n6. Exponentation\n9. Exit (stop script)");
+	option=prompt("First number: "+firstNumber+"\nSecond number: "+secondNumber+"\nLast result: "+result+"\n\nPlease enter the wished operation:\n1. Sum\n2. Rest\n3. Multiplication\n4. Division\n5. Modify numbers\n6. Exponentation\n7. Square root\n9. Exit (stop script)");
 	
 	if (option==1)
 	{
@@ -68,7 +68,15 @@ while (infiniteLoop==0){
 		result=firstNumber**secondNumber;
 		alert("Your result is: "+result);
 
-	} 
+	}
+	
+	else if (option==7)
+	{
+		alert("Notice that first number will be the radicand!");
+		result=Math.sqrt(firstNumber);
+		alert("Your result is: "+result);
+	}
+	
 	else if (option==9)
 	{
 		break;
